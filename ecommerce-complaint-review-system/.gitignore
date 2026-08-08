@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.Python
+venv/
+env/
+.venv/
+*.egg-info/
+
+# Environment variables
+.env
+
+# Model checkpoints (large binary files - optional, uncomment if you don't want to version them)
+# checkpoints/*.pt
+# checkpoints/*.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log

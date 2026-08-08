@@ -1,0 +1,61 @@
+text,category,severity
+"My order was supposed to arrive 5 days ago and it still hasn't shipped.",Delayed Delivery,Medium
+"It has been three weeks and my package is still not delivered.",Delayed Delivery,High
+"The delivery is a day late, not a big deal but annoying.",Delayed Delivery,Low
+"Tracking shows my item stuck at the warehouse for 10 days now.",Delayed Delivery,High
+"My order is delayed by two days, I hope it comes soon.",Delayed Delivery,Low
+"I paid for express shipping but it's already a week late.",Delayed Delivery,High
+"The estimated delivery date passed and there is no update at all.",Delayed Delivery,Medium
+"My package delivery got postponed again for the third time.",Delayed Delivery,High
+"Shipment is running a little behind schedule this week.",Delayed Delivery,Low
+"I ordered two weeks ago and there is still no sign of dispatch.",Delayed Delivery,High
+"The phone I received has a cracked screen right out of the box.",Defective Product,High
+"My blender stopped working after just one use.",Defective Product,High
+"The shirt has a small stitching defect near the collar.",Defective Product,Low
+"The laptop I bought overheats and shuts down randomly.",Defective Product,High
+"There is a minor scratch on the product casing.",Defective Product,Low
+"The headphones produce no sound in the left ear.",Defective Product,Medium
+"My washing machine leaks water every time I use it.",Defective Product,High
+"The toy arrived broken into two pieces.",Defective Product,High
+"The charger cable has a slight fraying but still works.",Defective Product,Low
+"The camera lens is scratched and blurry in every photo.",Defective Product,Medium
+"I ordered a blue jacket but received a red one instead.",Wrong Item Delivered,Medium
+"The box contained someone else's order, not mine.",Wrong Item Delivered,High
+"I got a smaller size than what I selected at checkout.",Wrong Item Delivered,Medium
+"This is completely the wrong product, not even close to what I ordered.",Wrong Item Delivered,High
+"Received the wrong color, but otherwise the item is fine.",Wrong Item Delivered,Low
+"They sent me a different model number than advertised.",Wrong Item Delivered,Medium
+"Completely wrong item, not usable for what I needed.",Wrong Item Delivered,High
+"I ordered a laptop stand but got a mouse pad instead.",Wrong Item Delivered,High
+"Wrong flavor was sent for my snack order.",Wrong Item Delivered,Low
+"The wrong sized shoes were delivered again for the second time.",Wrong Item Delivered,Medium
+"I returned the item a month ago and still haven't received my refund.",Refund Not Processed,High
+"My refund request has been pending for over two weeks.",Refund Not Processed,Medium
+"I was told the refund is processing, waiting a few more days.",Refund Not Processed,Low
+"Refund was promised in 5 business days, it has been 20 now.",Refund Not Processed,High
+"Still no refund and customer support keeps giving me the runaround.",Refund Not Processed,High
+"Refund status hasn't updated but it's only been two days.",Refund Not Processed,Low
+"I cancelled my order and I'm still waiting for the money back.",Refund Not Processed,Medium
+"My refund got approved but the money never hit my account.",Refund Not Processed,High
+"Refund is a little delayed, understandable during the sale season.",Refund Not Processed,Low
+"They keep closing my refund ticket without resolving it.",Refund Not Processed,High
+"I was charged twice for the same order.",Billing/Overcharge,High
+"There is an extra hidden fee added to my invoice.",Billing/Overcharge,Medium
+"My card was charged a slightly different amount than shown at checkout.",Billing/Overcharge,Low
+"I was billed for an item I never ordered.",Billing/Overcharge,High
+"The discount coupon wasn't applied and I was overcharged.",Billing/Overcharge,Medium
+"My subscription renewed at a higher price without notice.",Billing/Overcharge,High
+"Small rounding difference in my bill, not a huge deal.",Billing/Overcharge,Low
+"I see three duplicate charges on my bank statement.",Billing/Overcharge,High
+"Shipping fee was charged even though my order qualified for free shipping.",Billing/Overcharge,Medium
+"Tax amount seems slightly off on my last invoice.",Billing/Overcharge,Low
+"The support agent was rude and hung up on me.",Poor Customer Service,High
+"I waited over an hour on hold and no one answered.",Poor Customer Service,Medium
+"The chat support was polite but couldn't resolve my issue.",Poor Customer Service,Low
+"No one has responded to my emails for a week now.",Poor Customer Service,High
+"The representative gave me conflicting information twice.",Poor Customer Service,Medium
+"Customer service was slow to respond but eventually helped.",Poor Customer Service,Low
+"I was transferred five times and still got no help.",Poor Customer Service,High
+"The agent was dismissive and refused to escalate my issue.",Poor Customer Service,High
+"Support response time was a bit slower than expected.",Poor Customer Service,Low
+"They closed my support ticket without actually solving the problem.",Poor Customer Service,Medium

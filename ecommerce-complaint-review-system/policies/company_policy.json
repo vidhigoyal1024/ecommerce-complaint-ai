@@ -1,0 +1,50 @@
+{
+  "Delayed Delivery": {
+    "policy": "If a shipment is delayed more than 7 days past the estimated delivery date, the customer is entitled to a full refund of shipping charges. If delayed more than 14 days, the customer may choose between a full refund or expedited replacement shipment at no extra cost. Delays under 3 days are considered minor and handled with an apology and store credit if requested.",
+    "default_actions": {
+      "Low": "Apology + optional store credit",
+      "Medium": "Refund of shipping charges",
+      "High": "Full refund or expedited replacement"
+    }
+  },
+  "Defective Product": {
+    "policy": "Any product confirmed defective within 30 days of delivery qualifies for a free replacement. If the customer prefers, a full refund can be issued instead. Products with safety-related defects (fire, electrical, or injury risk) must be escalated to the Product Safety team immediately regardless of severity.",
+    "default_actions": {
+      "Low": "Replacement or partial refund",
+      "Medium": "Free replacement",
+      "High": "Replacement, refund, or escalation to Product Safety if hazard-related"
+    }
+  },
+  "Wrong Item Delivered": {
+    "policy": "If the wrong item was delivered, the customer receives a free return label and either a replacement of the correct item shipped immediately, or a full refund. No restocking fee applies since the error is on the company's side.",
+    "default_actions": {
+      "Low": "Replacement with correct item",
+      "Medium": "Replacement with correct item, expedited",
+      "High": "Immediate replacement or full refund, priority handling"
+    }
+  },
+  "Refund Not Processed": {
+    "policy": "Refunds must be processed within 5-7 business days of approval. If a refund has not been received after 10 business days, the case must be escalated to the Finance/Payments team for manual review. Repeated refund failures (2 or more) require escalation to a senior support agent regardless of dollar amount.",
+    "default_actions": {
+      "Low": "Monitor, provide refund status update",
+      "Medium": "Escalate to Payments team for manual review",
+      "High": "Immediate escalation to Finance/Payments team + compensation credit"
+    }
+  },
+  "Billing/Overcharge": {
+    "policy": "Any confirmed overcharge or duplicate charge must be refunded in full within 3 business days. Charges disputed by the customer but not yet confirmed should be escalated to the Billing team for investigation. Subscription price changes must have been notified 30 days in advance; if not, the customer is entitled to the original price and a refund of the difference.",
+    "default_actions": {
+      "Low": "Refund of the discrepancy amount",
+      "Medium": "Full refund of overcharge + escalate if unconfirmed",
+      "High": "Immediate full refund + escalation to Billing team"
+    }
+  },
+  "Poor Customer Service": {
+    "policy": "Complaints about service quality should be escalated to a team lead for review and agent coaching. If the underlying issue (the original complaint) remains unresolved, it should also be escalated as a priority case. Compensation such as store credit may be offered at the discretion of the team lead for High severity cases.",
+    "default_actions": {
+      "Low": "Log feedback for agent coaching",
+      "Medium": "Escalate to team lead",
+      "High": "Escalate to team lead + consider compensation credit"
+    }
+  }
+}
