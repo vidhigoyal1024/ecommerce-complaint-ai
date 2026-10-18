@@ -180,25 +180,3 @@ python -m src.pipeline "My package is three weeks late and support won't respond
 - **Learned fusion weights**: replace the fixed `(1/3, 1/3, 1/3)` fusion
   weights in `fusion.py` with weights tuned on a validation set, or a small
   learned meta-classifier ("stacking").
-- **RAG-style policy retrieval**: replace the JSON lookup in `llm_agent.py`
-  with embedding-based retrieval over a larger policy document store.
-
-## Files to upload to GitHub
-
-Upload the entire project folder as-is — every file listed under
-**Project Structure** above. The `checkpoints/` directory is created locally
-after you run the training scripts; you can either commit trained weights or
-leave them out (see `.gitignore`) and have users regenerate them by running
-`train.py` and `train_image_cnn.py`.
-
-### Quick GitHub push
-
-```bash
-cd ecommerce-complaint-review-system
-git init
-git add .
-git commit -m "Initial commit: AI-based e-commerce complaint review system"
-git branch -M main
-git remote add origin https://github.com/<your-username>/<your-repo>.git
-git push -u origin main
-```
